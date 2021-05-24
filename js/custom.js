@@ -16,7 +16,7 @@ $(function(){
       //1. 브라우저의 맨 위쪽 값 변수에 저장
       const winTop = $(window).scrollTop();
       //console.log(winTop);
-      
+
       //4. winTop 값이 headerTop보다 같거나 클때 sticky 클래스 추가 및 제거
       if(winTop >= headerTop){
         $("header").addClass("sticky");
@@ -83,8 +83,8 @@ $(function(){
     $(window).resize(function(){
       //화면 가로 크기를 변수에 저장
       const winW = $(window).width();
-    
-      for(let i = 0; i < $(".description").length; i++){  
+
+      for(let i = 0; i < $(".description").length; i++){
         if(winW < 900){
           $(".description").eq(i).text(a.substr(0, 50) + "...");
         } else {
