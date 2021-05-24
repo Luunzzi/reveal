@@ -131,4 +131,8 @@ $(function(){
     $(this).addClass("active");
   });
 
+  // VenoBox Lightbox Plugin Code
+    $('.venobox').venobox();
+
+
 });
