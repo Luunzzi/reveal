@@ -30,7 +30,6 @@ sendBtn.onclick = (e) => {
 
   document.form_data.submit();
 
-
 }
 
 // sendBtn.onclick(function(e){
